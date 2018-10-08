@@ -1,0 +1,361 @@
+/* CSS reset */
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+* {
+    color: #777777;
+}
+
+html,body { 
+    height:100%;
+    margin: 0; /*used for sticky footer*/
+}
+
+p {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+    /*header layout styling*/
+
+
+header {
+    width:100%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-bottom: solid #ccc 2px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.top { 
+    max-width:960px;
+    margin: 0 auto;
+}
+
+
+        /*name styling*/
+
+
+ .name {
+        float:left;
+        }
+
+.Harrison {
+    background-color: #4aaaa5;
+    padding: 20px;
+    color:white;
+    width: 150px;
+    text-align: center;
+}
+
+
+        /*nav bar styling*/
+
+
+.nav {
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+
+
+.nav-li {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    display: inline;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: solid #dddddd 2px;
+    position:relative;
+    top: 20px;
+}
+
+
+    /*content layout styling*/
+
+
+.background {
+    background-image:url(../images/bodybackground.png);
+    padding: 20px 0 85px;
+    min-height: 100%; /*used for sticky footer */
+    margin: 0 auto -50px; /*used for sticky footer*/
+    }
+
+.container {
+    max-width:960px;
+    margin: 0px auto;
+    background-color: white;
+    border: solid #ddd 1px;
+}
+
+.content {
+    padding: 30px 40px 30px 40px;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+        /*bio*/
+
+
+.bio-pic {
+    float: left;
+    margin-right:15px;
+    padding-top: 10px;
+}
+
+.bio {
+    padding-top: 10px; 
+    font-size: 16px;
+    line-height: 24px;
+    text-align:justify;
+    text-indent: 25px;
+}
+
+
+        /*portfolio styling*/
+
+
+.portfolio {
+    padding: 20px 35px 20px 0px;
+    max-width: 280px;
+    margin-right:0;
+    display: inline-block;
+}
+
+.cap-fig {
+    padding: 20px 70px 20px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #4aaaa5;
+    width: 140px;
+    color:#fff;
+    text-align: center;
+    white-space: nowrap;
+
+}
+
+/* hangman */
+
+
+.hang {
+    position: relative;
+}
+
+.hangmanp {
+    position: absolute;
+    bottom: 45px;
+}
+
+
+
+            /* rpg game */
+
+.rpg {
+    position: relative;
+    }
+
+.rpggamep {
+    position: absolute;
+    bottom: 45px;
+}
+
+
+
+            /* trivia game */
+
+.triv {
+    position: relative;
+     }
+
+.triviagamep {
+    position: absolute;
+    bottom: 45px;
+}
+
+
+            /* Rutgers Info Widget */
+
+.rutg {
+    position: relative;
+    }
+
+.rutgp {
+    position: absolute;
+    bottom: 45px;
+}
+
+
+            /* Rock Paper Scissors */
+
+.rock {
+    position: relative;
+    }
+
+.rpsp {
+    position: absolute;
+    bottom: 45px;
+}
+
+
+        /*contact styling*/
+
+
+label {
+    font-size: 16px;
+    display:block;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 10px 0 5px;
+}
+
+.input {
+    padding: 5px 0px 5px;
+    width:100%;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+    text-indent: 5px;
+    resize: vertical;
+}
+
+textarea {
+    height: 150px;
+    width: 100%;
+    border-color: #ddd;
+}
+
+.submit {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #4aaaa5;
+    color: #fff;
+    border: solid none 1px;
+    margin-top: 10px;
+    padding: 10px 25px 10px;
+    font-size: 16px;
+    
+}
+
+
+    /*footer styling*/
+
+
+.footer {
+    width:100%;
+    text-align:center;
+    background-color: #666;
+    border-top: solid #4aaaa5 5px;
+    bottom: 0;
+}
+
+.footer, .push { 
+    height: 50px; /*used for sticky footer*/
+}
+
+.copyright {
+    color: white;
+    padding: 30px 0 5px 0;
+    font-size: 12px;
+}
+
+/*media stylings*/
+/*
+@media only screen and (max-width: 980px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .content {
+        width:100%;
+    }
+}
+*/
+/*clear fix*/
+
+@media (max-width: 980px) {
+    .top {
+        width: 712px;
+        
+    }
+   
+}
+
+@media (max-width: 768px) {
+
+    .top {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+    }
+
+
+}
+
+
+
+@media (max-width: 640px) {
+    .top {
+        width: 100%;
+    }
+
+    .bio-pic {
+        float: left;   
+        margin-right: 33%;
+        margin-left: 33%;   
+    }
+
+    .content{
+        padding: 30px 25px 30px 25px;
+    }
+    .portfolio {
+        padding: 20px 0px 20px 0px;
+        max-width: 280px;
+        margin-right: 0px;
+        display: inline-block;
+    }
+}
+.cf {
+    clear:both;
+    overflow: auto;
+}
